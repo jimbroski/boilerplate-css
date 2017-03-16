@@ -1,3 +1,11 @@
-.btn {}
-.btn--default {}
-.btn--primary {}
+.btn {
+  padding: 5px 10px;
+}
+.btn--default {
+  @extend .btn;
+  background-color: transparent;
+}
+.btn--primary {
+  @extend .btn;
+  background-color: $color-primary;
+}
