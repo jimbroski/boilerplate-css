@@ -13,6 +13,7 @@
 - Don't use vendor prefixes. We will autoprefix them!
 - Use comments to structure your CSS in sections that make sense
 - Naming convention: Follow the [BEM (Block__Element--Modifier)](http://getbem.com/naming/) pattern
+- Media queries should be applied in the same place as the original rule (not in a separate file or at the bottom of the file)
 - If applicable: Don't create styles for CSS classes suffixed with `--js`! Those classes are only used for JS functionality
 
 # Inividual Parts
